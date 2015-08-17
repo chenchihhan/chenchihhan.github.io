@@ -1,7 +1,14 @@
-.me {
+h1 {
     text-align: center;
-    font-family: wcl-07;
+    font-family: sourcehansans-sc-bold;
+    font-style: italic;
     text-decoration: underline;
+}
+
+small {
+    text-align: center;
+    font-family: sourcehansans-sc-bold;
+    font-style: italic;
 }
 
 .col1 h3,
