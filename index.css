@@ -10,6 +10,10 @@ small {
     font-style: italic;
 }
 
+.pbut {
+    text-align: center;
+}
+
 .col1 h3,
 .col2 h3,
 .col3 h3 {
