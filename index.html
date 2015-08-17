@@ -1,51 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>我的履歷</title>
-    <meta charset='utf-8'>
-    <link rel="stylesheet" type="text/css" href="myprofile.css">
-    <script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-34983.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="index1.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <h1>陳致翰的履歷</h1>
-    <h3 class="p1">
-        基本資料<hr>
-    </h3>
-    <p>陳致翰 男性 未婚
-        <br> 1986/06/11
-        <br> 雙子座
-    </p>
-    <div>
-        <h3 class="p2">學歷<hr>
-        
-        </h3>
-        <p>
-            <ul>
-                <li>東吳數學系 2004/09~2009/06</li>
-                <li>淡江統研所 2009/06~2011/06</li>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <div class="navbar navbar-inverse">
+        <div class="collapse navbar-collapse" id="mynavbar-content">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Products</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Board of Members</a></li>
+                        <li><a href="#">Developers Team</a></li>
+                        <li><a href="#">Designing Team</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Share holders</a></li>
+                    </ul>
+                </li>
             </ul>
-        </p>
+        </div>
     </div>
-    <div>
-        <h3 class="p3">
-            工作經歷<hr>
-        </h3>
+    <div class="jumbotron me">
+        <h1>
+      MY BLOG PAGE<small>hello world</small>
+    </h1>
         <p>
-            <ol>
-                <li>玉山銀行 2013/09~</li>
-                <ul>
-                    <li>內勤人員</li>
-                    <li>地點:台北市</li>
-                </ul>
-                <li>衛生署 2013/01~2013/08</li>
-                <ul>
-                    <li>研究助理</li>
-                    <li>地點:台北市</li>
-                </ul>
-            </ol>
+            <p><a class="btn btn-primary btn-large">find me on tumblr &raquo;</a></p>
         </p>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col1">
+                <h3>Column 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus sint provident repellat id tempore dolorem mollitia necessitatibus in quam nemo ipsum hic, soluta atque debitis quidem repudiandae earum dignissimos saepe?</p>
+            </div>
+            <div class="col-xs-12 col-sm-3 col2">
+                <h3>Column 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eaque porro consequuntur repudiandae sit rerum tenetur asperiores temporibus dolore, assumenda deleniti quisquam sed architecto odit illum, vitae adipisci eum placeat.</p>
+            </div>
+            <div class="col-xs-12 col-sm-3 col3">
+                <h3>Column 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, nobis optio. Ratione eligendi cupiditate ea, in rem repudiandae accusamus distinctio accusantium temporibus ducimus, at nisi optio deleniti, tempore sequi maxime.</p>
+            </div>
+            <img src="http://placehold.it/250x350">
+        </div>
     </div>
 </body>
 
