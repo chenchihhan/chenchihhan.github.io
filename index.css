@@ -6,12 +6,8 @@ h1 {
 
 small {
     text-align: center;
-    font-family: sourcehansans-sc-bold;
+    font-family: wcl-07;
     font-style: italic;
-}
-
-.pbut {
-    text-align: center;
 }
 
 .col1 h3,
