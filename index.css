@@ -11,7 +11,8 @@ small {
 }
 
 .pbut {
-    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .col1 h3,
