@@ -20,6 +20,7 @@
 
 .fb {
     float: right;
+    z-index: -1
 }
 
 h3 {
