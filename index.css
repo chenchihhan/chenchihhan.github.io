@@ -4,6 +4,8 @@
     background-size: 100%;
     border-radius: 15px;
     font-family: sourcehansans-sc;
+    padding-left: 30px;
+    box-sizing: border-box;
 }
 
 .bk2 {
@@ -15,7 +17,7 @@
 
 .me {
     box-sizing: border-box;
-    border-radius: 50%;
+    border-radius: 25px;
 }
 
 h3 {
