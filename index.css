@@ -18,6 +18,11 @@
     border-radius: 50px;
 }
 
+.fb {
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
 h3 {
     background-color: #0000CD;
     color: #F5F5DC;
