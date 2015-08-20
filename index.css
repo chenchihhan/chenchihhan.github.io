@@ -19,8 +19,7 @@
 }
 
 .fb {
-    border-radius: 50px;
-    box-sizing: border-box;
+    float: right;
 }
 
 h3 {
