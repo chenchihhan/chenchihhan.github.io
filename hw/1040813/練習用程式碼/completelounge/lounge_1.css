@@ -1,0 +1,23 @@
+.p2 {
+    width: 500px;
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-style: dashed;
+    background-color: #a7cece;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+p2 {
+    font-family: 'Indie Flower', cursive;
+}

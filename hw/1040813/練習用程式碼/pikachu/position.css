@@ -1,0 +1,39 @@
+.circle1 {
+    background: #FF4500;
+    border-radius: 360px;
+    width: 220px;
+    height: 220px;
+    left: 300px;
+    padding-left: 50px;
+    padding-top: 20px;
+    top: -40px;
+    box-sizing: border-box;
+    position: absolute;
+    color: #FFD700;
+}
+
+.circle2 {
+    background: #D2691E;
+    border-radius: 360px;
+    width: 220px;
+    height: 220px;
+    left: 300px;
+    position: absolute;
+    color: white;
+}
+
+.circle3 {
+    position: absolute;
+}
+
+.circle4 {
+    position: absolute;
+}
+
+.circle5 {
+    position: fixed;
+}
+
+.circle6 {
+    position: absolute;
+}
