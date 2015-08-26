@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+.bk2 {
+    float: left;
+    width: 100%;
+}
+
 small {
     font-style: italic;
 }
