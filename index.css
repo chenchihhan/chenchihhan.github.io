@@ -12,7 +12,14 @@ small {
     font-style: italic;
 }
 
-.bk2 {
+#myimg {
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.prof {
     background-color: #F0F8FF;
     border-radius: 15px;
     width: 25%;
