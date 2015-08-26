@@ -12,17 +12,22 @@ small {
     font-style: italic;
 }
 
-
-/*.bk2 {
-    background-color: #F0FFFF;
+.bk2 {
+    background-color: #F0F8FF;
     border-radius: 15px;
-    width: 100%;
+    width: 25%;
     float: left;
-}*/
+}
 
 .me {
     box-sizing: border-box;
     border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
 }
 
 h3 {
