@@ -12,6 +12,11 @@ small {
     font-style: italic;
 }
 
+#carousel-example-generic {
+    float: left;
+    width: 80%;
+}
+
 #myimg {
     display: block;
     margin: auto;
