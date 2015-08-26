@@ -12,12 +12,13 @@ small {
     font-style: italic;
 }
 
-.bk2 {
+
+/*.bk2 {
     background-color: #F0FFFF;
     border-radius: 15px;
     width: 100%;
     float: left;
-}
+}*/
 
 .me {
     box-sizing: border-box;
