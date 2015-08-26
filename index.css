@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+small {
+    text-align: italic;
+}
+
 .bk2 {
     background-color: #F0FFFF;
     border-radius: 15px;
